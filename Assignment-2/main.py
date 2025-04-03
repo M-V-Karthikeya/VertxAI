@@ -23,7 +23,7 @@ def extract(pdf_path):
 
 from google import genai
 
-client = genai.Client(api_key="AIzaSyDAKVVIa51EoGUT0U-76-r_5eYRgcSzdOs")
+client = genai.Client(api_key="key")
 
 def analyze(sections):
     response = client.models.generate_content(
