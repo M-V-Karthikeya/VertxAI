@@ -1,0 +1,4 @@
+pytesseract
+streamlit
+pdf2image
+google-generativeai
